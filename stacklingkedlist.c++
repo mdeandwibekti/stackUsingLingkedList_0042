@@ -36,6 +36,21 @@ public:
         return value;
     }
 
+   
+   
+    void pop()
+    {
+        if (isEmpty())
+        {
+            cout << "Stack is empty" << endl;
+        }
+
+        cout << "popped value:" << top->data << endl;
+        top = top->next;
+    }
+
+    
+
 };
 
 

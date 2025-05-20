@@ -82,7 +82,7 @@ int main()
 
     while (choice != 4)
     {
-        cout << "1. Push\n"
+        cout << "1. Push\n";
         cout << "2. Pop\n";
         cout << "3. Peek\n";
         cout << "4. Exit\n";
@@ -116,7 +116,7 @@ int main()
                     cout << "Stack is empty. No top value." << endl;
                 }
                 break;
-            case 4:
+                case 4:
                 cout << "Exiting Program." << endl;
                 break;
             default:
@@ -124,6 +124,7 @@ int main()
                 break;
         }
         cout << endl;
+            
 
     }
     return 0;
